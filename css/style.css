@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #8a817c;
+  --secondary-color: #fff;
+  --Tertiary-color: #05668d;
+  --hover-color: #219ebc;
+  --box-color: #adb5bd;
+  --back-color-title: #e63946;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
+
+.btn {
+  color: var(--secondary-color);
+  background-color: var(--Tertiary-color);
+  padding: 0.75rem 3rem;
+  border-radius: 5px;
+  margin: 2rem 0 1rem 0;
+  font-size: 20;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  color: var(--secondary-color);
+  background-color: var(--hover-color);
+}
+
+.cast {
+  padding: 1rem 1rem;
+  text-align: center;
+  color: var(--secondary-color);
+  width: 800px;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header div */
+h1 {
+  background-color: var(--back-color-title);
+  padding: 0.5rem;
+}
+
+/* form div */
+#email-form {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#email-form .boxes {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  text-align: center;
+}
+
+#email-form .boxes {
+  margin: 3rem 1rem 0 0.5rem;
+}
+#email-form .boxes {
+    margin: 3rem 1rem 0 0.5rem;
+}
+#email-form .boxes label {
+    margin-top: 1.5rem;
+}
+#email-form input[type="email"],
+input[type="text"],
+textarea {
+  padding: 0.75rem 0.5rem;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: var(--primary-color);
+  font-size: 17px;
+}
+
+#email-form input[type="email"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  /* border-radius: 5px; */
+  border-color: var(--hover-color);
+  font-size: 20px;
+}
+
+/*  image div */
+#email-form #loadImg img {
+  width: 150px;
+  margin: 1rem auto;
+  display: none;
+}
+
+#email-form .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+#email-form #sendBtn:disabled {
+  background-color: var(--box-color);
+  cursor: auto;
+}
+
+@media (max-width: 850px) {
+  .cast {
+    width: 700px;
+  }
+}

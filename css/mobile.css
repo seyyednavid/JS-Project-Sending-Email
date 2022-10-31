@@ -1,0 +1,33 @@
+
+.cast {
+      width: 500px;
+}
+
+@media(max-width: 500px){
+    .btn {
+        color: var(--secondary-color);
+        padding: 0.5rem 2rem;
+        margin: 1rem 0 0.25rem 0;
+        font-size: 18;    
+    }
+    .cast {
+        width: 350px;
+    }
+    #email-form .boxes {
+        display: flex;
+        flex-direction: column;
+        text-align: center;  
+    }
+    #email-form label {
+        margin-bottom: 0.5rem;
+    }
+    #email-form .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+ 
+
+}
