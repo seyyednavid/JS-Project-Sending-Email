@@ -40,12 +40,13 @@ body {
   text-align: center;
   color: var(--secondary-color);
   width: 800px;
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* header div */
+
 h1 {
   background-color: var(--back-color-title);
   padding: 0.5rem;
@@ -68,9 +69,7 @@ h1 {
 #email-form .boxes {
   margin: 3rem 1rem 0 0.5rem;
 }
-#email-form .boxes {
-    margin: 3rem 1rem 0 0.5rem;
-}
+
 #email-form .boxes label {
     margin-top: 1.5rem;
 }

@@ -12,11 +12,13 @@
     }
     .cast {
         width: 350px;
+        margin-top: 1rem;
     }
     #email-form .boxes {
         display: flex;
         flex-direction: column;
         text-align: center;  
+        margin: 1.25rem 1rem 0 0.5rem;
     }
     #email-form label {
         margin-bottom: 0.5rem;
